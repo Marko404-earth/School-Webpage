@@ -15,7 +15,7 @@
 
     h1 {
       font-size: 32px;
-      font-weight: 400;
+      font-weight: 700;
       color: #255F38;
     }
 
@@ -29,7 +29,12 @@
     h2.contact {
       color: #255F38;
     }
-
+    .indoor {
+      background-color: #E0FFFF;
+      padding: 5px;
+      border: 1px solid #B0E0E6;
+    }
+    
     .outdoor {
       background-color: #AFEEEE;
       padding: 5px;
@@ -37,7 +42,7 @@
     }
 
     .section {
-      background-color: #00337C;
+      background-color: #4E9F3D;
       padding: 10px;
     }
   </style>
@@ -51,7 +56,7 @@
 
   <h2 id="upcoming-events">Upcoming Events</h2>
   <ul>
-    <li title="Event Type: Indoor" data-event-type="indoor">Science Fair - <span style="font-weight: bold; color: red;">June 10</span></li>
+    <li title="Event Type: outdoor" data-event-type="indoor" class="indoor">Science Fair - <span style="font-weight: bold; color: red;">June 10</span></li>
     <li title="Event Type: Outdoor" data-event-type="outdoor" class="outdoor">Art Exhibition - <span style="font-weight: bold; color: red;">June 15</span></li>
     <li title="Event Type: Outdoor" data-event-type="outdoor" class="outdoor">Sports Day - <span style="font-weight: bold; color: red;">June 20</span></li>
   </ul>
